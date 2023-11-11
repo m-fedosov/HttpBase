@@ -1,0 +1,23 @@
+{
+    "name": "kaa/http-base",
+    "type": "library",
+    "description": "Defines an object-oriented layer for the HTTP specification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Mikhail Fedosov",
+            "email": "fedosovmichaek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "vkcom/kphp-polyfills": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Kaa\\HttpBase\\": "" }
+    }
+}
